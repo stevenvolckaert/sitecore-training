@@ -19,5 +19,7 @@ Templates can inherit from multiple base templates.
 
 ## 2.5 Summary and Optional Lab
 
+The slide deck contains a slide *Key Vocabulary*. **Add them to the wiki.**
+
 [1]: https://marketplace.sitecore.net/Modules/S/Sitecore_PowerShell_console.aspx
 [2]: https://marketplace.sitecore.net
