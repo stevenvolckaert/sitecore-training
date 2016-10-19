@@ -14,13 +14,13 @@ Templates can inherit from multiple base templates.
 * `__Standard Values` contains all fields of the data template, *including* the fields of inherited data templates.
 * `__Standard Values` also contain defaults for layouting! However, these need to be accessed
 * Standard Values allows to select defaults for field values, insert options, presentation, and workflow.
-* [Sitecore Powershell Extensions][1] are useful to refactor templates to so that they all have `__Standard Values`.
-  See the [Sitecore Marketplace][2].
+* [Sitecore Powershell Extensions][1] are useful to refactor templates to so that they all have `__Standard Values`. See
+  the [Sitecore Marketplace][2].
 
 ### Tokens
 
-Tokens are *dynamic* default field values: They are substituted *the moment an item is created*. You can create your
-own tokens programmatically.
+Tokens are *dynamic* default field values: They are substituted *the moment an item is created*. You can create your own
+tokens programmatically.
 
 * `$id`
 * `$name`
@@ -47,7 +47,8 @@ Sitecore UIs.
 #### Data Template
 Defines an item’s type.Contains field sections and fields. Should always have a unique icon. Used to create items.
 #### Field
-Holds content. Can be different types: Single-Line Text, Rich Text, Image, General Linkand more. Type determines the interface that the author sees for editing that field.
+Holds content. Can be different types: Single-Line Text, Rich Text, Image, General Linkand more. Type determines the
+interface that the author sees for editing that field.
 #### Data Template Inheritance
 Data templates can inherit fields and field sections from other data templates. Reduces duplication.
 #### Standard Values

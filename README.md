@@ -7,7 +7,8 @@ training, which I attended from October 18 to October 21, 2016.
 
 The trainer was [Jeroen Feyaerts][2].
 
-See Sitecore Documentation for "Sitecore publick NuGet Package". It contains documentation for adding a NuGet package feed.
+See Sitecore Documentation for "Sitecore publick NuGet Package". It contains documentation for adding a NuGet package
+feed.
 
 ## Notes
 
