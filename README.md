@@ -1,5 +1,7 @@
 # Sitecore XP 8 Website Development for .NET Developers
 
+*– 2016-10-18T19:44: Reviewing slides @ slide 41 –*
+
 This repository contains notes I've taken during the *[Sitecore XP 8 Website Development for .NET Developers][1]*
 training, which I attended from October 18 to October 21, 2016.
 

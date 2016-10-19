@@ -1,8 +1,6 @@
 ﻿# Introduction
 
-*2016-10-18T19:44: Reviewing slides @ slide 41*
-
-**Trainer: Jeroen** Works for Sitecore Belgium. Doesn't make implementations.
+**Trainer: Jeroen Feyaerts** Works for Sitecore Belgium. Doesn't make implementations.
 
 [sitecore.instructorled.training][1] (my personal access code: 5682065806)
 
