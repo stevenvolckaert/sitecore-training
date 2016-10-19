@@ -4,8 +4,6 @@
 
 # Module 1: Sitecore Overview
 
-***Content for module 1 is not in the booklet - We'll get it on Friday.***
-
 * Sitecore Experience Editor (in 7.2) = Sitecore Page Editor in 7.0/7.5
 * Sitecore is an ASP.NET application. Requirements for 8.0: ASP.NET 4.5 / MVC 5.1 / IIS Integrated mode. See
   compatibilty table on kb.sitecore.net/articles/087164. More compatibility tables are available in the knowledge base.
