@@ -1,7 +1,7 @@
 # Sitecore XP 8 Website Development for .NET Developers
 
 This repository contains notes I've taken during the *[Sitecore XP 8 Website Development for .NET Developers][1]*
-training, from October 18 to 21, 2016.
+training, which I attended from October 18 to October 21, 2016.
 
 The trainer was [Jeroen Feyaerts][2].
 
