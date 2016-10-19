@@ -1,3 +1,7 @@
+<p align="center">
+    <a href="introduction.md">← Introduction</a> | <strong><a href="#">Module 1</a></strong> | <a href="module-2.md">Module 2 →</a>
+</p>
+
 # Module 1: Sitecore Overview
 
 ***Content for module 1 is not in the booklet - We'll get it on Friday.***
@@ -29,3 +33,7 @@ Only SQL databases are supported at this time. No possibility to distribute the 
 [1]: https://community.sitecore.com
 [3]: http://support.sitecore.net
 [4]: https://kb.sitecore.net
+
+<p align="center">
+    <a href="introduction.md">← Introduction</a> | <strong><a href="#">Module 1</a></strong> | <a href="module-2.md">Module 2 →</a>
+</p>

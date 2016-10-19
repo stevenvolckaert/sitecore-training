@@ -1,4 +1,8 @@
-﻿# Introduction
+﻿<p align="center">
+    <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>
+</p>
+
+# Introduction
 
 **Trainer: Jeroen Feyaerts** Works for Sitecore Belgium. Doesn't make implementations.
 
@@ -15,12 +19,10 @@ We'll get the slides on Thursday, October 20, 2016. They may be used during the 
 
 * Sublayout -> Contains path to ASP.NET Web Forms User Control (`*.ascx`)
 * (?) Rendering -> Contains path to ASP.NET MVC View (`*.cshtml`)
-* Controller Rendering -> Specifies a **Controller** name (fully qualified type name is supported - 
-  specifying the assembly name as well), and a **Controller Action** name. It also contains a **Placeholder**
-  data field.
+* Controller Rendering -> Specifies a **Controller** name (fully qualified type name is supported - specifying the
+  assembly name as well), and a **Controller Action** name. It also contains a **Placeholder** data field.
 
-* Beware: Sublayouts also have a **Placeholder** Data field. Don't confuse this with the placeholder used on the
-  layout.
+* Beware: Sublayouts also have a **Placeholder** Data field. Don't confuse this with the placeholder used on the layout.
 
 # Sitecore Modules
 
@@ -40,6 +42,7 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 | Marketplace                 | [marketplace.sitecore.net][5] | -                                       |
 | Documentation               | [doc.sitecore.net][6]         | [Documentation on GitHub][7]            |
 | Sitecore Support            | [support.sitecore.net][8]     | - |
+| Sitecore Services Cient (SSC) | | Exposes a REST endpoint, useful for creating SPA's. See Sitecore documentation and Developer Network. |
 
 ### Other
 
@@ -54,6 +57,16 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 * CMS Performance Tuning
 * Experience Editor Recommended Practices *- Experience Editor is the renamed Page Editor from Sitecore 7.*
 
+# Sitecore Rocks
+
+[Sitecore Rocks][11] is a Visual Studio plugin.
+
+> Sitecore Rocks makes Sitecore developers happy. Directly integrated into Microsoft Visual Studio 2013/2015, Sitecore
+> Rocks provides a fast and streamlined development experience with tools that developers are used to.
+
+* When editing content (not a template), right-click the edit pane, select View, and enable **Field information**;
+* To see raw values, right-click the edit pane when editing content, and select **Raw Values**.
+
 [1]: https://sitecore.instructorled.training
 [2]: https://sdn.sitecore.net
 [3]: https://dev.sitecore.net
@@ -64,3 +77,8 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 [8]: http://support.sitecore.net
 [9]: https://kb.sitecore.net/articles/087164
 [10]: https://kb.sitecore.net/articles/522918
+[11]: https://visualstudiogallery.msdn.microsoft.com/44a26c88-83a7-46f6-903c-5c59bcd3d35b
+
+<p align="center">
+    <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>
+</p>

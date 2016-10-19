@@ -1,3 +1,7 @@
+<p align="center">
+    <a href="module-1.md">← Module 1</a> | <strong><a href="#">Module 2</a></strong> | <a href="module-3.md">Module 3 →</a>
+</p>
+
 # Module 2: Defining Data
 
 Templates can inherit from multiple base templates.
@@ -53,3 +57,7 @@ List of item types that can be inserted by authors as a child of a particular it
 
 [1]: https://marketplace.sitecore.net/Modules/S/Sitecore_PowerShell_console.aspx
 [2]: https://marketplace.sitecore.net
+
+<p align="center">
+    <a href="module-1.md">← Module 1</a> | <strong><a href="#">Module 2</a></strong> | <a href="module-3.md">Module 3 →</a>
+</p>
