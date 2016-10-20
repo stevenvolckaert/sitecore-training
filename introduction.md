@@ -67,6 +67,10 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 * When editing content (not a template), right-click the edit pane, select View, and enable **Field information**;
 * To see raw values, right-click the edit pane when editing content, and select **Raw Values**.
 
+# Misc
+
+* Enable **Web One Click Publish** shortcut in the Visual Studio toolbar! 
+
 [1]: https://sitecore.instructorled.training
 [2]: https://sdn.sitecore.net
 [3]: https://dev.sitecore.net

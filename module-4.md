@@ -54,6 +54,8 @@ Some fields, like text fields, can be updated by setting the `Field.Value` prope
 
 ## 4.4 Working with Complex Fields
 
+*A table of all (?) field types can be found on slides 152-153.*
+
 * Always use one of the `FieldRenderer.Render` methods, instead of manually creating HTML elements. If not, the result
   won't be editable in the Experience Editor.
 * Fields are **not** settable. To edit fields, you must retrieve a handle to it, then edit its members one by one. This

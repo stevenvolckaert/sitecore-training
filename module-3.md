@@ -22,7 +22,7 @@
 
 ### Component Types
 
-*Components are also frequently called **controls**.*
+*Components are also frequently called **controls**. Sometimes, they're also referred to as **widgets**.*
 
 | Component Type           | Description                              |
 |-------------------------:|------------------------------------------|
