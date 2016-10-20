@@ -19,6 +19,10 @@ feed.
 * [Module 4: Sitecore API](module-4.md)
 * [Module 5: Advanced Presentation Concepts](module-5.md)
 * [Module 6: ](module-6.md)
+* [Module 7: ](module-7.md)
+* [Module 8: ](module-8.md)
+* [Module 9: ](module-9.md)
+* [Module 10: ](module-10.md)
 
 ## External links
 
