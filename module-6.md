@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="module-5.md">← Module 5</a> | <strong><a href="#">Module 6</a></strong> | <a href="module-7.md">Module 7 →</a>
+    <a href="module-5.md">← Module 5</a> | <strong>Module 6</strong> | <a href="module-7.md">Module 7 →</a>
 </p>
 
 # Module 6: Real World Solutions
@@ -12,5 +12,5 @@ We'll use the `TrainCore` Sitecore instance from now on, instead of the `BasicSi
   extension.
 
 <p align="center">
-    <a href="module-5.md">← Module 5</a> | <strong><a href="#">Module 6</a></strong> | <a href="module-7.md">Module 7 →</a>
+    <a href="module-5.md">← Module 5</a> | <strong>Module 6</strong> | <a href="module-7.md">Module 7 →</a>
 </p>

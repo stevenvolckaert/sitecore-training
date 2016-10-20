@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="introduction.md">← Introduction</a> | <strong><a href="#">Module 1</a></strong> | <a href="module-2.md">Module 2 →</a>
+    <a href="introduction.md">← Introduction</a> | <strong>Module 1</strong> | <a href="module-2.md">Module 2 →</a>
 </p>
 
 # Module 1: Sitecore Overview
@@ -34,5 +34,5 @@ Only SQL databases are supported at this time. No possibility to distribute the 
 [4]: https://kb.sitecore.net
 
 <p align="center">
-    <a href="introduction.md">← Introduction</a> | <strong><a href="#">Module 1</a></strong> | <a href="module-2.md">Module 2 →</a>
+    <a href="introduction.md">← Introduction</a> | <strong>Module 1</strong> | <a href="module-2.md">Module 2 →</a>
 </p>
