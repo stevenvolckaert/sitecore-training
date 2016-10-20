@@ -1,5 +1,5 @@
 ﻿<p align="center">
-    <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>
+    <strong>Introduction</strong> | <a href="module-1.md">Module 1 →</a>
 </p>
 
 # Introduction
@@ -34,15 +34,17 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 
 # External links
 
-| Name                        | URL                           | Remarks                                 |
-|-----------------------------|-------------------------------|-----------------------------------------|
-| Sitecore Developer Network  | [sdn.sitecore.net][2]         | For Sitecore v7.0–v7.5                  |
-| Sitecore Developer Network  | [dev.sitecore.net][3]         | A.k.a. Sitecore Experience Platform 8.0 |   
-| Knowledge Base              | [kb.sitecore.net][4]          | -                                       |
-| Marketplace                 | [marketplace.sitecore.net][5] | -                                       |
-| Documentation               | [doc.sitecore.net][6]         | [Documentation on GitHub][7]            |
-| Sitecore Support            | [support.sitecore.net][8]     | - |
-| Sitecore Services Cient (SSC) | | Exposes a REST endpoint, useful for creating SPA's. See Sitecore documentation and Developer Network. |
+| Name                          | URL                           | Remarks                                 |
+|-------------------------------|-------------------------------|-----------------------------------------|
+| Sitecore Developer Network    | [sdn.sitecore.net][2]         | For Sitecore v7.0–v7.5                  |
+| Sitecore Developer Portal     | [dev.sitecore.net][3]         | A.k.a. Sitecore Experience Platform 8.0 |   
+| Knowledge Base                | [kb.sitecore.net][4]          | -                                       |
+| Marketplace                   | [marketplace.sitecore.net][5] | -                                       |
+| Documentation                 | [doc.sitecore.net][6]         | [Documentation on GitHub][7]            |
+| Sitecore Support              | [support.sitecore.net][8]     | - |
+| Sitecore Services Cient (SSC) |                               | Exposes a REST endpoint, useful for creating SPA's. See Sitecore documentation and Developer Network. |
+| [Sitecore Technical Blog][12] |                               | |
+| [Sitecore Hangouts][14]       |                               | |
 
 ### Other
 
@@ -53,6 +55,7 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 # Useful Guides
 
 * Scaling
+* [Search Scaling Guide][13]
 * CMS Diagnistics
 * CMS Performance Tuning
 * Experience Editor Recommended Practices *- Experience Editor is the renamed Page Editor from Sitecore 7.*
@@ -82,6 +85,9 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 [9]: https://kb.sitecore.net/articles/087164
 [10]: https://kb.sitecore.net/articles/522918
 [11]: https://visualstudiogallery.msdn.microsoft.com/44a26c88-83a7-46f6-903c-5c59bcd3d35b
+[12]: http://www.sitecore.net/learn/blogs/technical-blogs.aspx
+[13]: http://sdn.sitecore.net/Reference/Sitecore%207/Sitecore%20Search%20and%20CMS%20Scaling%20Guide.aspx
+[14]: http://www.youtube.com/user/SitecorePM
 
 <p align="center">
     <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>

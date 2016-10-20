@@ -15,10 +15,14 @@
 To get content:
 
 ~~~
+// Gets the data source item of the current request.
 // This snippet only applies to ASP.NET Web Forms.
-// Returns a formatted GUID
-var dataSourceIdString = Attributes["sc_datasource"];
-var dataSourceItem = Sitecore.Context.Database.GetItem(dataSourceIdString);
+public Item GetDataSourceItem()
+{
+    var dataSourceIdString = Attributes["sc_datasource"];
+    var dataSourceItem = Sitecore.Context.Database.GetItem(dataSourceIdString);
+    return dataSourceItem;
+}
 ~~~
 
 Beware: Force controls to use a different data source than the context item by setting the control's `Item` property in
@@ -28,6 +32,10 @@ the `.ascx` file.
 ## 5.2 Layout Deltas
 
 * A *Layout Delta* is basically a transform, set on an individual content item, to alter the presentation.
+* In the Content Editory, you can see which items have their presentation overridden. Right-click the gutter (a.k.a. the
+  Quick Action Bar), and enable **Presentation Overridden**. A specific icon will appear in the gutter next to items
+  that have their presentation overridden.
+* Layout Deltas are persisted as XML in the `__Renderings` system field.
 
 <p align="center">
     <a href="module-4.md">← Module 4</a> | <strong>Module 5</strong> | <a href="module-6.md">Module 6 →</a>

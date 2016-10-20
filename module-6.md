@@ -6,7 +6,7 @@
 
 We'll use the `TrainCore` Sitecore instance from now on, instead of the `BasicSitecore` Sitecore instance.
 
-## Familiar Concepts
+## 6.1 Familiar Concepts
 
 * It's possible to see the Template inheritance tree, in Content Editor as well as in the Sitecore Rocks Visual Studio
   extension.
