@@ -40,7 +40,7 @@ Of course, the code needs to be adapted to read the parameters, and apply them t
 * Placeholder settings make placeholder controls (`<sc:Placeholder />`) selectable in the Experience Editor.
 * These are used to set up restrictions in the `Allowed Controls` field. This influences the available options in the
   Experience Editor when adding components.
-* It does **not** affect the presentation details dialogs in Content Editor or Experience Editor. 
+* It does **not** affect the presentation details dialogs in Content Editor or Experience Editor.
 
 **Allowed Controls**: Define the components that can be added to a placeholder. When empty, all is allowed.
 
@@ -57,19 +57,31 @@ configured), one can swap them out in the Experience Editor.
 Custom Experience buttons can be created: You'll need to inherit some kind of Sitecore base class (or interface),
 implement it, and then link it in the web.config. Tip: You can use Sitecore Rocks to view the web.config!
 
-Custom Experience buttons are persisted in the `core` database (`/core/sitecore/content/Applications/WebEdit/Custom
-Experience Buttons`).
+**Custom Experience buttons are persisted in the `core` database (`<core>/sitecore/content/Applications/WebEdit/Custom
+Experience Buttons`).**
 
-It's also possible to add custom Experience Editor buttons to fields! Go the the template, and edit the field definition
+Two button types are available: `Field Editor` buttons, and `WebEdit` buttons. Field editor buttons open a field editor,
+that allows one to edit the field. This doesn't make sense for simple fields, like single-line text fields, but it does
+for complex fields (e.g. a date). WebEdit buttons execute a command (code in the .NET solution.)
+
+Custom Experience Buttons are context-aware: They execute in the context of the Context Item - or an arbitrary Content
+Item, if the component's data source is set).
+
+It's also possible to add custom Experience Editor buttons to fields. Go the the template, and edit the field definition
 item.
 
-|||
+| Button type               | Is assigned in                                                       |
 |--------------------------:|----------------------------------------------------------------------|
 | Component Toolbar Buttons | Assigned in the component definition item (e.g. Sublayout)           |
 | Field Toolbar Buttons     | Assigned on the field definition item (child item of data templates) |
 
-The `<sc:EditFrame />` ASP.NET Web Forms control surround an area on a page or compnent, and display buttons allowing
-you to edit fields that would not normally be editable in the Experience Editor.
+The `<sc:EditFrame />` ASP.NET Web Forms control surrounds an area on a page or component, e.g. content from a Multilist
+field, and display buttons which allow one to edit fields that would not normally be editable in the Experience Editor.
+This is useful when you create your own controls, but want authors to be able to edit the content in the Experience
+Editor.
+
+Note: The `EditFrame` control is not aware of the current data source. If it must, assign it using the
+`DataSourceAttribute`.
 
 <p align="center">
     <a href="module-6.md">← Module 6</a> | <strong>Module 7</strong> | <a href="module-8.md">Module 8 →</a>

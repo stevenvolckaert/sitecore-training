@@ -92,5 +92,5 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 [15]: http://sdn.sitecore.net/reference/sitecore%207/page%20editor%20recommended%20practices%20for%20developers.aspx
 
 <p align="center">
-    <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>
+    <strong>Introduction</strong> | <a href="module-1.md">Module 1 →</a>
 </p>
