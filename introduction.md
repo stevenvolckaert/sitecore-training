@@ -51,6 +51,7 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 * [Modules Compatibility Table][7]
 * [Sitecore CMS Compatiblity Table][9]
 * [Sitecore MVC Compatibility Table][10]
+* [Experience Editor Recommended Practices Guide for Developers][15]
 
 # Useful Guides
 
@@ -88,6 +89,7 @@ Also see the [Modules Compatibility Table][7] in the Sitecore Knowledge Base.
 [12]: http://www.sitecore.net/learn/blogs/technical-blogs.aspx
 [13]: http://sdn.sitecore.net/Reference/Sitecore%207/Sitecore%20Search%20and%20CMS%20Scaling%20Guide.aspx
 [14]: http://www.youtube.com/user/SitecorePM
+[15]: http://sdn.sitecore.net/reference/sitecore%207/page%20editor%20recommended%20practices%20for%20developers.aspx
 
 <p align="center">
     <strong><a href="#">Introduction</a></strong> | <a href="module-1.md">Module 1 →</a>

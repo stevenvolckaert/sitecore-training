@@ -15,10 +15,24 @@ We'll use the `TrainCore` Sitecore instance from now on, instead of the `BasicSi
 
 ### Multi-Language Support
 
-* Sitecore language fallback is implemented out-of-the box (needs to be enabled) in Sitecore XP 8.1.
-
 Navigate your browser to `<wwwroot>/sitecore/admin/showconfig.aspx` to display the compiled `web.config`. This
 functionality is also available in the Sitecore Rocks Visual Studio extension.
+
+* Sitecore language fallback is implemented out-of-the box (needs to be enabled) in Sitecore XP 8.1.
+* Earlier Sitecore versions do not have implementation, so you'll need to create your own logic. Before rendering items
+  to the screen, you must check that each item has a version in the current context language
+  (`Sitecore.Context.Language`). If not, you probably want to fall back to a default language.
+
+Check if a version is available in the current context language (`Sitecore.Context.Language`):
+~~~
+var versionedChildItems = item.Children.Where(x => x.Versions.Count > 0);
+
+// Returns a value that indicates whether the Context Item has child items in the current language.
+public bool HasVersion(Item item)
+{
+    return item.Children.Any(x => x.Versions.Count > 0);
+}
+~~~
 
 **Licensing model: One separate license is needed *per IIS application pool*.**
 
@@ -38,9 +52,8 @@ field, contains a layout delta.
 
 It uses XPath to manipulate the raw XML values.
 
-*It is recommended **not** to use this feature. It possibly leads to performance issues.*
-
-We recommend *Sitecore Fast Query* - it translates into T-SQL statements which are executed directly on the SQL Server.
+*It is recommended **not** to use this feature. It possibly leads to performance issues.* We recommend *Sitecore Fast
+Query* - it translates into T-SQL statements which are executed directly on the SQL Server.
 
 <p align="center">
     <a href="module-5.md">← Module 5</a> | <strong>Module 6</strong> | <a href="module-7.md">Module 7 →</a>
